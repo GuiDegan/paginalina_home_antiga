@@ -3,9 +3,14 @@
     margin-top: -1.2%;
 }
 
-.logo {
-    margin: 0px 0px 0px 0px;
-    padding: 0rem 0rem 0rem 0rem;
+.logo_lina {
+    position: absolute;
+}
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 ul {
@@ -18,7 +23,7 @@ ul {
 
 li {
     float: left;
-    margin-left: 10%;
+    margin-left: 15%;
 }
 
 li a {
@@ -27,14 +32,15 @@ li a {
     text-align: center;
     padding: 30px 16px;
     text-decoration: none;
+    padding-left: 1rem;
 }
 
 h4 {
     font-family: saira;
     text-align: center;
     position: absolute;
-    padding: 12rem 3rem;
     color: #005B59;
+    padding: 15rem 45rem 0rem 3rem;
 }
 /*---------------------------------------------------------- Sobre -------------------------------------------------- */
 .background_sobre {
@@ -54,6 +60,7 @@ h4 {
     display: flex;
     justify-content: space-around;
     width: 1300px;
+    text-align: center;
 }
 
 .card {
@@ -62,7 +69,7 @@ h4 {
     text-align: justify;
     font-family: saira;
     font-size: 18px;
-    box-shadow: black 0.2em 0.4em 0.7em 0.1em;
+    box-shadow: #565656 0.2em 0.4em 0.6em 0.3em;
 }
 /*---------------------------------------------------------- Equipe  -------------------------------------------------- */
 .background_equipe {
@@ -85,25 +92,21 @@ h4 {
     font-family: Saira;
     font-style: normal;
     font-weight: 200;
-    font-size: 28px;
+    font-size: 20px;
     color: #000000;
     max-width: 100%;
 }
 
 #texto_marcio {
-    padding: 7rem 0rem 0rem 14rem;
+    padding: 7rem 0rem 0rem 9rem;
 }
 
 #texto_alan {
-    padding: 7rem 0rem 0rem 36rem;
+    padding: 7rem 0rem 0rem 28rem;
 }
 
 #texto_murilo {
-    padding: 7rem 0rem 0rem 0rem;
-}
-
-.card-text-equipe {
-    padding-right: 4rem;
+    padding: 7rem 0rem 0rem 50rem;
 }
 
 #cardgroup_socios {
@@ -115,13 +118,13 @@ h4 {
     margin-bottom: 2%;
 }
 
-.card-img-top {
-    height: 250px;
+.card-text-equipe {
+    height: 140px;
+    padding: 2rem 5rem 0rem 4.7rem;
 }
 
-.card-text-equipe {
-    padding-left: 4.7rem;
-    height: 160px;
+.card-img-top {
+    height: 250px;
 }
 
 .texto_colaboradores {
@@ -136,52 +139,59 @@ h4 {
 }
 
 #texto_wellington {
-    padding: 3rem 0rem 0rem 3rem;
+    padding: 3rem 0rem 0rem 1rem;
 }
 
 #texto_guilherme {
-    padding: 3rem 0rem 0rem 27rem;
+    padding: 3rem 0rem 0rem 20rem;
 }
 
 #texto_renner {
-    padding: 3rem 0rem 0rem 54rem;
+    padding: 3rem 0rem 0rem 40rem;
+    text-align: justify;
 }
 
 #cardgroup_colaboradores {
     padding: 1rem 8rem 0rem 0.2rem;
 }
-/*-------------------------------------------------------- Produto --------------------------------------------------- */
-.documentos_download {
-    padding-left: 69rem;
-    margin-top: -45%;
-    position: absolute;
-}
-
-.texto_primeirosacessos {
-    margin-top: -30%;
-    position: absolute;
-    padding-left: 3rem;
-    padding-right: 35rem;
-    text-align: justify;
-}
-
-#texto_download {
-    text-align: center;
-}
-
+/*-------------------------------------------------------- Produto --------------------------------------------------- -*/
 .produtos {
     display: flex;
-    margin-top: -60%;
     padding-left: 3rem;
-    margin-bottom: 2.5%;
+    margin: -60% 2.5% 0% 0%;
 }
 
 .produto_SLL {
-    margin-top: 3.6%;
-    padding-left: 3rem;
+    margin-top: 3.9%;
+    padding-left: 4rem;
+    margin-left: 3%;
 }
 /*---------------------------------------------------- Primeiros Acessos ----------------------------------------------- */
-#texto_download {
-    padding-right: 3rem;
-    color: #005B59;
+.texto_acessos {
+    padding: 12rem 35rem 0rem 0rem;
+}
+
+.ferramentas {
+    padding-left: 30rem;
+}
+
+.acessos-geral {
+    display: flex;
+    padding-left: 25rem;
+    margin: -42% 0% 2.5% 0%;
+}
+
+#texto_slack {
+    text-align: center;
+    padding-left: 3rem;
+}
+
+#texto_email {
+    text-align: center;
+    padding-left: 3rem;
+}
+
+#texto_trello {
+    text-align: center;
+    padding-left: 3rem;
 }
