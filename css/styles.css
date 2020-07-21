@@ -168,30 +168,51 @@ h4 {
 }
 /*---------------------------------------------------- Primeiros Acessos ----------------------------------------------- */
 .texto_acessos {
-    padding: 12rem 35rem 0rem 0rem;
+    padding: 14rem 45rem 0rem 3rem;
 }
 
 .ferramentas {
-    padding-left: 30rem;
+    padding-left: 25rem;
 }
 
 .acessos-geral {
     display: flex;
-    padding-left: 25rem;
+    padding-left: 20rem;
     margin: -42% 0% 2.5% 0%;
+    position: absolute;
+}
+
+#logo_slack {
+    padding-right: 7rem;
 }
 
 #texto_slack {
-    text-align: center;
-    padding-left: 3rem;
+    text-align: left;
+    padding-left: 5rem;
+}
+
+#logo_email {
+    padding-right: 7rem;
 }
 
 #texto_email {
-    text-align: center;
-    padding-left: 3rem;
+    text-align: left;
+    padding-left: 5rem;
+}
+
+#logo_trello {
+    padding-right: 7rem;
 }
 
 #texto_trello {
-    text-align: center;
-    padding-left: 3rem;
+    text-align: left;
+    padding-left: 5rem;
+}
+
+h6 {
+    padding-bottom: 1rem;
+    padding-right: 3rem;
+    font-family: saira;
+    text-align: justify;
+    color: #005B59
 }
