@@ -11,17 +11,21 @@
 <!-------------------------------------------------------  Início ------------------------------------------------------>
     <body>
         <div class="container-fixed">
-            <nav>
-                <ul>
-                    <li class="logo"><a href="#"><img src="img_background/Lina.png" height="40" width="80"></a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#equipe">Equipe</a></li>
-                    <li><a href="#produto">Produto</a></li>
-                    <li><a href="#primeirosacessos">Acessos</a></li>
-                </ul>
-            </nav>
-            <h4>Seja bem vindo à Lina! <br><br> Arraste para baixo e conheça <br> um pouco mais sobre a <br> empresa.</h4>
-            <img class="background_inicio" src="img_background/background_inicio.png" style="width: 100%">
+            <div class="sticky">
+                <div>
+                    <img href="https://www.linkedin.com/in/marcio-castro-7a43a6/" class="logo_lina" src="img_background/Lina.png" width="130" height="85">
+                </div>
+                <nav>
+                    <ul>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#equipe">Equipe</a></li>
+                        <li><a href="#produto">Produto</a></li>
+                        <li><a href="#acessos">Acessos</a></li>
+                    </ul>
+                </nav>
+            </div>
+                <h4>Seja bem vindo à Lina! Arraste para baixo e conheça um pouco mais sobre a empresa.</h4>
+                <img class="background_inicio" src="img_background/background_inicio.png" style="width: 100%">
 <!------------------------------------------------------ Sobre  -------------------------------------------------------->
             <div>
                 <div>
@@ -32,12 +36,12 @@
                     <div class="card text-white" style="background-color: #00DC8D;">
                         <div class="card-header">Origem</div>
                         <div class="card-body">
-                        <p class="card-text"></p>A Lina é uma infratech independente do mercado brasileiro, que foi fundada em junho de 2019 partir da união de dois fatores-chave que compõem nosso DNA: conhecimento técnico e visão de negócios. Estas são as duas principais características do nosso time de fundadores, composto por renomados e experientes profissionais das áreas de negócios e tecnologia do mercado financeiro brasileiro, e também por um grupo de jovens entusiastas do ecossistema global de inovação, com energia e obstinação por transformar o sistema financeiro. Nascemos para atuar como um terceiro neutro de confiança para fintechs e novos entrantes, com o propósito de promover inclusão, maior competitividade e eficiência no sistema financeiro.</p>
+                        <p class="card-text" style="width: 100%"></p>A Lina é uma infratech independente do mercado brasileiro, que foi fundada em junho de 2019 partir da união de dois fatores-chave que compõem nosso DNA: conhecimento técnico e visão de negócios. Estas são as duas principais características do nosso time de fundadores, composto por renomados e experientes profissionais das áreas de negócios e tecnologia do mercado financeiro brasileiro, e também por um grupo de jovens entusiastas do ecossistema global de inovação, com energia e obstinação por transformar o sistema financeiro. Nascemos para atuar como um terceiro neutro de confiança para fintechs e novos entrantes, com o propósito de promover inclusão, maior competitividade e eficiência no sistema financeiro.</p>
                         </div>
                     </div>
                     <div class="card text-white" style="background-color: #00DC8D;">
                         <div class="card-header">Objetivo</div>
-                        <div class="card-body">
+                        <div class="card-body" style="width: 100%">
                         <p class="card-text"></p>Nosso objetivo é, através da utilização de novas tecnologias e de um modelo de negócios inovador, promover o acesso das fintechs e novos entrantes do mercado financeiro aos arcabouços regulatórios e operacionais do Sistema de Pagamentos Brasileiro (SPB), do Sistema de Pagamentos Instantâneos (SPI) e do Ecossistema Brasileiro de Open Banking. Nossa tech stack é baseada em Elixir, e utiliza arquitetura de micro serviços, com serviços de Live Streaming Apache Kafka, o que garante escalabilidade para nossas aplicações. Nossas definições técnicas possibilitam taxas de processamento por segundo compatíveis com as expectativas e a realidade do mercado brasileiro, utilizando serviços de infraestrutura tecnológica em nuvem.</p>
                         </div>
                     </div>
@@ -112,42 +116,40 @@
                 <div><br><br>
                     <h4 class="titulo">Produtos</h4>
                 </div>
-                    <img class="background_produto" src="img_background/background_produto.jpg" height="860px" style="width: 100%" style="height: 100%;">          
+                    <img id="produto" src="img_background/background_produto.jpg" height="860px" style="width: 100%" style="height: 100%;">          
                 <div class="produtos"> 
-                    <div class="produto_PIX" id="produto" style="width: 46%" style="height: 46%;"><br><br>
+                    <div class="produto_PIX" style="width: 46%" style="height: 46%;"><br><br>
                         <iframe class="video" width="550" height="430" style="width: 100%" style="height: 100%;" src="https://www.youtube.com/embed/ctBY0ldvhNQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
-                    <div class="produto_SLL" style="width: 49%" style="height: 49%;">
+                    <div class="produto_SLL" style="width: 49%" style="height: 50%;">
                         <iframe class="video" width="550" height="430" style="width: 100%" style="height: 100%;" src="https://www.youtube.com/embed/5V3Y394VmXQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
 <!------------------------------------------------------- Acessos ------------------------------------------------------->
-			<div>              
-                <div class="primeirosacessos" id="primeirosacessos" style="width: 100%">
-                        <h4 class="titulo" style="color: #005B59;">Primeiros Acessos</h4>
-                        <img style="background-color: #00DC8D;" width="1311" height="700" style="width: 100%">
-                        <h3 class="texto_primeirosacessos" style="width: 100%">Agora que você conheceu um pouco mais sobre a Lina, você pode acessar nossa documentação ao lado para entender um pouco mais sobre as ferramentas e serviços que nossa equipe utiliza no dia-a-dia :-)</h3>
-					<div class="documentos_download" style="width: 100%">
-                        <div>
-                            <a href="documentos_primeirosacessos/E-mail.pptx">
-							<img src="icones_lina/envelope-solid.svg" height="150" width="150"  style="width: 100%">
-                            <h5 id="texto_download" style="width: 100%">E-mail</h5>
-                        </div>
-                        <div>
-                            <a href="documentos_primeirosacessos/Slack.pptx">
-                            <img src="icones_lina/slack-brands.svg" height="150" width="150" style="width: 100%">
-                            <h5 id="texto_download" style="width: 100%">Slack</h5>
-                        </div>
-                        <div>
-                            <a href="documentos_primeirosacessos/Trello.pptx">
-                            <img src="icones_lina/trello-brands.svg" height="150" width="150">
-                            <h5 id="texto_download" style="width: 100%">Trello</h5>
-                        </div>
-					</div>
+            <div>    
+                <div><br><br>
+                    <h4 class="titulo" id="acessos" style="color: #005B59">Acessos</h4>
+                    <h4 class="texto_acessos">Agora que você conheceu um pouco mais sobre a Lina, você pode acessar nossa documentação ao lado para entender um pouco mais sobre as ferramentas e serviços que nossa equipe utiliza no dia-a-dia :-)</h4>
+                    <img class="background_acessos" src="img_background/background_acessos.png" height="600px" style="width: 100%" style="height: 100%;">
                 </div>
-            </div> 
-
-        </div> 
+                <div class="acessos-geral"> 
+                    <div class="ferramentas">
+                        <div class="slack">
+                            <img id="logo_slack" src="icones_lina/slack-brands.svg" style="width: 55%" style="height: 55%;" height="100" width="100" >
+                            <h5 id="texto_slack">Slack</h5>
+                        </div>
+                        <div class="email">
+                            <img id="logo_email" src="icones_lina/envelope-solid.svg" style="width: 55%" style="height: 55%;" height="100" width="100">
+                            <h5 id="texto_email">E-mail</h5>
+                        </div>
+                        <div class="trello">
+                            <img id="logo_trello" src="icones_lina/trello-brands.svg" style="width: 55%" style="height: 55%;" height="100" width="100">
+                            <h5 id="texto_trello">Slack</h5>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </body>
 </html>
