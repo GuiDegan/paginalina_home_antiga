@@ -23,7 +23,7 @@ ul {
 
 li {
     float: left;
-    margin-left: 15%;
+    text-align: right;
 }
 
 li a {
@@ -32,7 +32,8 @@ li a {
     text-align: center;
     padding: 30px 16px;
     text-decoration: none;
-    padding-left: 1rem;
+    padding-left: 4rem;
+    margin: 0% 0% 0% 450%;
 }
 
 h4 {
@@ -98,15 +99,18 @@ h4 {
 }
 
 #texto_marcio {
-    padding: 7rem 0rem 0rem 9rem;
+    padding: 0rem;      /*Padding zerado para que não ocorra um redimensionamento do mesmo quando alterado para telas menores.*/
+    margin: 10% 0% 0% 20%;
 }
 
 #texto_alan {
-    padding: 7rem 0rem 0rem 28rem;
+    padding: 0rem;      /*Padding zerado para que não ocorra um redimensionamento do mesmo quando alterado para telas menores.*/
+    margin: 10% 0% 0% 47%;
 }
 
 #texto_murilo {
-    padding: 7rem 0rem 0rem 50rem;
+    padding: 0rem;      /*Padding zerado para que não ocorra um redimensionamento do memso quando alterado para telas menores.*/
+    margin: 10% 0% 0% 75%;
 }
 
 #cardgroup_socios {
@@ -139,16 +143,20 @@ h4 {
 }
 
 #texto_wellington {
-    padding: 3rem 0rem 0rem 1rem;
+    padding-left: 3rem;      
+    margin-top: 5%;
 }
 
 #texto_guilherme {
-    padding: 3rem 0rem 0rem 20rem;
+    margin-top: 5%;
+    text-align: center;
+    padding-right: 6rem;
 }
 
 #texto_renner {
-    padding: 3rem 0rem 0rem 40rem;
-    text-align: justify;
+    padding: 0rem 14rem 0rem 0rem;
+    margin-top: 5%;
+    text-align: right;
 }
 
 #cardgroup_colaboradores {
@@ -162,9 +170,8 @@ h4 {
 }
 
 .produto_SLL {
-    margin-top: 3.9%;
     padding-left: 4rem;
-    margin-left: 3%;
+    margin: 3.9% 0rem 0rem 3%;
 }
 /*---------------------------------------------------- Primeiros Acessos ----------------------------------------------- */
 .texto_acessos {
@@ -210,8 +217,7 @@ h4 {
 }
 
 h6 {
-    padding-bottom: 1rem;
-    padding-right: 3rem;
+    padding: 0rem 3rem 1rem 0rem;
     font-family: saira;
     text-align: justify;
     color: #005B59
