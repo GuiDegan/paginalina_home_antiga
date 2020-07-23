@@ -3,9 +3,14 @@
     margin-top: -1.2%;
 }
 
-.logo {
-    margin: 0px 0px 0px 0px;
-    padding: 0rem 0rem 0rem 0rem;
+.logo_lina {
+    position: absolute;
+}
+
+div.sticky {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
 }
 
 ul {
@@ -18,7 +23,7 @@ ul {
 
 li {
     float: left;
-    margin-left: 10%;
+    text-align: right;
 }
 
 li a {
@@ -27,14 +32,16 @@ li a {
     text-align: center;
     padding: 30px 16px;
     text-decoration: none;
+    padding-left: 4rem;
+    margin: 0% 0% 0% 450%;
 }
 
 h4 {
     font-family: saira;
     text-align: center;
     position: absolute;
-    padding: 12rem 3rem;
     color: #005B59;
+    padding: 15rem 45rem 0rem 3rem;
 }
 /*---------------------------------------------------------- Sobre -------------------------------------------------- */
 .background_sobre {
@@ -54,6 +61,7 @@ h4 {
     display: flex;
     justify-content: space-around;
     width: 1300px;
+    text-align: center;
 }
 
 .card {
@@ -62,7 +70,7 @@ h4 {
     text-align: justify;
     font-family: saira;
     font-size: 18px;
-    box-shadow: black 0.2em 0.4em 0.7em 0.1em;
+    box-shadow: #565656 0.2em 0.4em 0.6em 0.3em;
 }
 /*---------------------------------------------------------- Equipe  -------------------------------------------------- */
 .background_equipe {
@@ -85,25 +93,24 @@ h4 {
     font-family: Saira;
     font-style: normal;
     font-weight: 200;
-    font-size: 28px;
+    font-size: 20px;
     color: #000000;
     max-width: 100%;
 }
 
 #texto_marcio {
-    padding: 7rem 0rem 0rem 14rem;
+    padding: 0rem;      /*Padding zerado para que não ocorra um redimensionamento do mesmo quando alterado para telas menores.*/
+    margin: 10% 0% 0% 20%;
 }
 
 #texto_alan {
-    padding: 7rem 0rem 0rem 36rem;
+    padding: 0rem;      /*Padding zerado para que não ocorra um redimensionamento do mesmo quando alterado para telas menores.*/
+    margin: 10% 0% 0% 47%;
 }
 
 #texto_murilo {
-    padding: 7rem 0rem 0rem 0rem;
-}
-
-.card-text-equipe {
-    padding-right: 4rem;
+    padding: 0rem;      /*Padding zerado para que não ocorra um redimensionamento do memso quando alterado para telas menores.*/
+    margin: 10% 0% 0% 75%;
 }
 
 #cardgroup_socios {
@@ -115,13 +122,13 @@ h4 {
     margin-bottom: 2%;
 }
 
-.card-img-top {
-    height: 250px;
+.card-text-equipe {
+    height: 140px;
+    padding: 2rem 5rem 0rem 4.7rem;
 }
 
-.card-text-equipe {
-    padding-left: 4.7rem;
-    height: 160px;
+.card-img-top {
+    height: 250px;
 }
 
 .texto_colaboradores {
@@ -136,52 +143,82 @@ h4 {
 }
 
 #texto_wellington {
-    padding: 3rem 0rem 0rem 3rem;
+    padding-left: 3rem;      
+    margin-top: 5%;
 }
 
 #texto_guilherme {
-    padding: 3rem 0rem 0rem 27rem;
+    margin-top: 5%;
+    text-align: center;
+    padding-right: 6rem;
 }
 
 #texto_renner {
-    padding: 3rem 0rem 0rem 54rem;
+    padding: 0rem 14rem 0rem 0rem;
+    margin-top: 5%;
+    text-align: right;
 }
 
 #cardgroup_colaboradores {
     padding: 1rem 8rem 0rem 0.2rem;
 }
-/*-------------------------------------------------------- Produto --------------------------------------------------- */
-.documentos_download {
-    padding-left: 69rem;
-    margin-top: -45%;
-    position: absolute;
-}
-
-.texto_primeirosacessos {
-    margin-top: -30%;
-    position: absolute;
-    padding-left: 3rem;
-    padding-right: 35rem;
-    text-align: justify;
-}
-
-#texto_download {
-    text-align: center;
-}
-
+/*-------------------------------------------------------- Produto --------------------------------------------------- -*/
 .produtos {
     display: flex;
-    margin-top: -60%;
     padding-left: 3rem;
-    margin-bottom: 2.5%;
+    margin: -60% 2.5% 0% 0%;
 }
 
 .produto_SLL {
-    margin-top: 3.6%;
-    padding-left: 3rem;
+    padding-left: 4rem;
+    margin: 3.9% 0rem 0rem 3%;
 }
 /*---------------------------------------------------- Primeiros Acessos ----------------------------------------------- */
-#texto_download {
-    padding-right: 3rem;
-    color: #005B59;
+.texto_acessos {
+    padding: 14rem 45rem 0rem 3rem;
+}
+
+.ferramentas {
+    padding-left: 25rem;
+}
+
+.acessos-geral {
+    display: flex;
+    padding-left: 20rem;
+    margin: -42% 0% 2.5% 0%;
+    position: absolute;
+}
+
+#logo_slack {
+    padding-right: 7rem;
+}
+
+#texto_slack {
+    text-align: left;
+    padding-left: 5rem;
+}
+
+#logo_email {
+    padding-right: 7rem;
+}
+
+#texto_email {
+    text-align: left;
+    padding-left: 5rem;
+}
+
+#logo_trello {
+    padding-right: 7rem;
+}
+
+#texto_trello {
+    text-align: left;
+    padding-left: 5rem;
+}
+
+h6 {
+    padding: 0rem 3rem 1rem 0rem;
+    font-family: saira;
+    text-align: justify;
+    color: #005B59
 }
