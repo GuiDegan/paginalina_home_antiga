@@ -248,18 +248,6 @@ h4 {
     color: #005B59;
 }
 
-#logo_trello {
-    padding-right: 10rem;
-}
-
-#logo_email {
-    padding-right: 8rem
-}
-
-#logo_slack {
-    padding-right: 13rem;
-}
-
 .ferramentas div h6:active {
     -webkit-transform: scale(0.5);
     transform: scale(1.2);
