@@ -3,6 +3,7 @@
     <head>
         <html lang="pt-br">
         <meta charset="UTF-8">
+        <script src="https://kit.fontawesome.com/6e9347f22f.js" crossorigin="anonymous"></script>
         <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
         <link rel="stylesheet" type="text/css" href="css/styles.css">
         <link href="https://fonts.googleapis.com/css2?family=Saira:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
@@ -11,150 +12,169 @@
 <!-------------------------------------------------------  Início ------------------------------------------------------->
     <body>
         <div class="container-fixed" id="inicio">
-            <div class="sticky">
-                <div>
-                    <a href="#inicio">
-                    <img class="logo_lina" src="img_background/lina.png" alt="Ícone Lina" width="130" height="85"></a>
+            <div class="navbar sticky">
+                <div class="container">
+                    <div>
+                        <a href="#inicio">
+                        <img class="logo_lina" src="img_background/lina.png" alt="Ícone Lina"></a>
+                    </div>
+                    <nav>
+                        <ul class="menu">
+                            <li class="list-item"><a href="#acessos">Acessos</a></li>
+                            <li class="list-item"><a href="#produtos">Produto</a></li>
+                            <li class="list-item"><a href="#equipe">Equipe</a></li>
+                            <li class="list-item"><a href="#sobre">Sobre</a></li>  
+                        </ul>
+                    </nav>
                 </div>
-                <nav>
-                    <ul>
-                        <li><a href="#acessos">Acessos</a></li>
-                        <li><a href="#produtos">Produto</a></li>
-                        <li><a href="#equipe">Equipe</a></li>
-                        <li><a href="#sobre">Sobre</a></li>  
-                    </ul>
-                </nav>
             </div>
-            <div class="background_inicio" style="width: 100%">
-                <h4>Seja bem vindo à Lina! Arraste para baixo e conheça um pouco mais sobre a empresa.</h4>
+            <div class="background_inicio sessao">
+                <div class="container sub-title green">
+                    <h4>Seja bem vindo à Lina! Arraste para baixo e conheça um pouco mais sobre a empresa.</h4>
+                </div>
             </div>
 <!-------------------------------------------------------  Sobre -------------------------------------------------------->
-            <div class="background_sobre" id="sobre" style="width: 100%">
-                <h4 class="titulo">Sobre</h4>    
-                <div class="cards" style="width: 100%">    
-                    <div class="card text-white" style="background-color: #00DC8D;">
-                        <div class="card-header">Origem</div>
-                        <div class="card-body">
-                            <p class="card-text"></p>A Lina é uma infratech independente do mercado brasileiro, que foi fundada em junho de 2019 partir da união de dois fatores-chave que compõem nosso DNA: conhecimento técnico e visão de negócios. Estas são as duas principais características do nosso time de fundadores, composto por renomados e experientes profissionais das áreas de negócios e tecnologia do mercado financeiro brasileiro, e também por um grupo de jovens entusiastas do ecossistema global de inovação, com energia e obstinação por transformar o sistema financeiro. Nascemos para atuar como um terceiro neutro de confiança para fintechs e novos entrantes, com o propósito de promover inclusão, maior competitividade e eficiência no sistema financeiro.</p>
+            <div class="background_sobre sessao" id="sobre">
+                <div class="container">
+                    <h4 class="title light-green">Sobre</h4>    
+                    <div class="cards">    
+                        <div class="card bg-light-green text-white mr-3">
+                            <div class="card-header">Origem</div>
+                            <div class="card-body">
+                                <p class="card-text">A Lina é uma infratech independente do mercado brasileiro, que foi fundada em junho de 2019 partir da união de dois fatores-chave que compõem nosso DNA: conhecimento técnico e visão de negócios. Estas são as duas principais características do nosso time de fundadores, composto por renomados e experientes profissionais das áreas de negócios e tecnologia do mercado financeiro brasileiro, e também por um grupo de jovens entusiastas do ecossistema global de inovação, com energia e obstinação por transformar o sistema financeiro. Nascemos para atuar como um terceiro neutro de confiança para fintechs e novos entrantes, com o propósito de promover inclusão, maior competitividade e eficiência no sistema financeiro.</p>
+                            </div>
                         </div>
-                    </div>
-                    <div class="card text-white" style="background-color: #00DC8D;">
-                        <div class="card-header">Objetivo</div>
-                        <div class="card-body">
-                            <p class="card-text"></p>Nosso objetivo é, através da utilização de novas tecnologias e de um modelo de negócios inovador, promover o acesso das fintechs e novos entrantes do mercado financeiro aos arcabouços regulatórios e operacionais do Sistema de Pagamentos Brasileiro (SPB), do Sistema de Pagamentos Instantâneos (SPI) e do Ecossistema Brasileiro de Open Banking. Nossa tech stack é baseada em Elixir, e utiliza arquitetura de micro serviços, com serviços de Live Streaming Apache Kafka, o que garante escalabilidade para nossas aplicações. Nossas definições técnicas possibilitam taxas de processamento por segundo compatíveis com as expectativas e a realidade do mercado brasileiro, utilizando serviços de infraestrutura tecnológica em nuvem.</p>
+                        <div class="card bg-light-green text-white ml-3">
+                            <div class="card-header">Objetivo</div>
+                            <div class="card-body">
+                                <p class="card-text">Nosso objetivo é, através da utilização de novas tecnologias e de um modelo de negócios inovador, promover o acesso das fintechs e novos entrantes do mercado financeiro aos arcabouços regulatórios e operacionais do Sistema de Pagamentos Brasileiro (SPB), do Sistema de Pagamentos Instantâneos (SPI) e do Ecossistema Brasileiro de Open Banking. Nossa tech stack é baseada em Elixir, e utiliza arquitetura de micro serviços, com serviços de Live Streaming Apache Kafka, o que garante escalabilidade para nossas aplicações. Nossas definições técnicas possibilitam taxas de processamento por segundo compatíveis com as expectativas e a realidade do mercado brasileiro, utilizando serviços de infraestrutura tecnológica em nuvem.</p>
+                            </div>
                         </div>
                     </div>
                 </div>
             </div>
 <!------------------------------------------------------- Equipe -------------------------------------------------------->
-            <div class="background_equipe" id="equipe" style="width: 100%">
-                <div>                
-                    <h4 class="titulo" style="color: #005B59;">Equipe</h4>
-                    <h4 class="texto_socioslina">Sócios Lina</h4>
-                    <h4 class="texto_colaboradores">Colaboradores</h4>
-                </div> 
-                <div class="card-group" id="cardgroup_socios">
-                    <div class="card-marcio">
-                        <h3 class="texto_marcio">MÁRCIO - CEO</h3>
-                        <div class="card" style="background-color: #005B59;">   
-                            <img class="card-img-top" src="img_perfil/perfil-marcio.jpg" alt="Imagem Márcio">
-                            <div class="card-body">
-                                <a href="https://www.linkedin.com/in/marcio-castro-7a43a6/">
-                                <img class="card-text-equipe" src="icones_lina/linkedin.svg" alt="LinkedIn Márcio"></a>
+            <div class="background_equipe sessao" id="equipe">
+                <div class="container">               
+                    <h4 class="title green">Equipe</h4>
+                    <div class="card-group row" id="cardgroup_socios">
+                        <div class="card-equipe col-md-3">
+                            <h3 class="card-title">MÁRCIO - CEO</h3>
+                            <div class="card bg-green">   
+                                <img class="card-img-top" src="img_perfil/perfil-marcio.jpg" alt="Imagem Márcio">
+                                <div class="text-center">
+                                    <a href="https://www.linkedin.com/in/marcio-castro-7a43a6/">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card-alan">
-                        <h3 class="texto_alan">ALAN - PRODUTOS</h3>
-                        <div class="card" style="background-color: #005B59;">   
-                            <img class="card-img-top" src="img_perfil/perfil-alan.jpg" alt="Imagem Alan">
-                            <div class="card-body">
-                                <a href="https://www.linkedin.com/in/alanmareines/">
-                                <img class="card-text-equipe" src="icones_lina/linkedin.svg" alt="LinkedIn Alan"></a>
+                        <div class="card-equipe col-md-3">
+                            <h3 class="card-title">ALAN - PRODUTOS</h3>
+                            <div class="card bg-green">   
+                                <img class="card-img-top" src="img_perfil/perfil-alan.jpg" alt="Imagem Alan">
+                                <div class="text-center">
+                                    <a href="https://www.linkedin.com/in/alanmareines/">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card-murilo">
-                        <h3 class="texto_murilo">MURILO - COMUNIDADE</h3>
-                        <div class="card" style="background-color: #005B59;">   
-                            <img class="card-img-top" src="img_perfil/perfil-murilo.jpg" alt="Imagem Murilo">
-                            <div class="card-body">
-                                <a href="https://www.linkedin.com/in/murilorabusky/">
-                                <img class="card-text-equipe" src="icones_lina/linkedin.svg" alt="LinkedIn Murilo"></a>
+                        <div class="card-equipe col-md-3">
+                            <h3 class="card-title">MURILO - COMUNIDADE</h3>
+                            <div class="card bg-green">   
+                                <img class="card-img-top" src="img_perfil/perfil-murilo.jpg" alt="Imagem Murilo">
+                                <div class="text-center">
+                                    <a href="https://www.linkedin.com/in/murilorabusky/">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
+                        <h4 class="sub-title-equipe col-md-3">Sócios Lina</h4>
                     </div>
-                </div>
-                <div class="card-group" id="cardgroup_colaboradores">  
-                    <div class="card-wellington">
-                        <h3 class="texto_wellington">WELLINGTON - BACK DEV.</h3>
-                        <div class="card" style="background-color: #005B59;">
-                            <img class="card-img-top" src="img_perfil/perfil-wellington.jpg" alt="Imagem Wellington">
-                            <div class="card-body">
-                                <a href="https://www.linkedin.com/in/wellingtonmb88/">
-                                <img class="card-text-equipe" src="icones_lina/linkedin.svg" alt="LinkedIn Wellington"></a>
+                    <div class="card-group pt-5" id="cardgroup_colaboradores">  
+                        <h4 class="sub-title-equipe col-md-3">Colaboradores</h4>
+                        <div class="card-equipe col-md-3">
+                            <h3 class="card-title">WELLINGTON - BACK DEV.</h3>
+                            <div class="card bg-green">
+                                <img class="card-img-top" src="img_perfil/perfil-wellington.jpg" alt="Imagem Wellington">
+                                <div class="text-center">
+                                    <a href="https://www.linkedin.com/in/wellingtonmb88/">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card-guilherme">
-                        <h3 class="texto_guilherme">GUILHERME - FRONT DEV.</h3>
-                        <div class="card" style="background-color: #005B59;">
-                            <img class="card-img-top" src="img_perfil/perfil-guilherme.jpg" alt="Imagem Guilherme">
-                            <div class="card-body">
-                                <a href="https://www.linkedin.com/in/guilherme-degan-b1ba05124/">
-                                <img class="card-text-equipe" src="icones_lina/linkedin.svg" alt="LinkedIn Guilherme"></a>
+                        <div class="card-equipe col-md-3">
+                            <h3 class="card-title">GUILHERME - FRONT DEV.</h3>
+                            <div class="card bg-green">
+                                <img class="card-img-top" src="img_perfil/perfil-guilherme.jpg" alt="Imagem Guilherme">
+                                <div class="text-center">
+                                    <a href="https://www.linkedin.com/in/guilherme-degan-b1ba05124/">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="card-renner">
-                        <h3 class="texto_renner">RENNER - INFRA.</h3>
-                        <div class="card" style="background-color: #005B59;">
-                            <img class="card-img-top" src="img_perfil/perfil-renner.jpg" alt="Imagem Renner">
-                            <div class="card-body">
-                                <a href="https://www.linkedin.com/in/renner-de-lima-guiciard-1a7b66163">
-                                <img class="card-text-equipe" src="icones_lina/linkedin.svg" alt="LinkedIn Renner"></a>                            
+                        <div class="card-equipe col-md-3">
+                            <h3 class="card-title">RENNER - INFRA.</h3>
+                            <div class="card bg-green">
+                                <img class="card-img-top" src="img_perfil/perfil-renner.jpg" alt="Imagem Renner">
+                                <div class="text-center">
+                                    <a href="https://www.linkedin.com/in/renner-de-lima-guiciard-1a7b66163">
+                                        <i class="fab fa-linkedin"></i>
+                                    </a>                            
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
 <!------------------------------------------------------- Produtos ------------------------------------------------------>
-            <div class="background_produto" id="produtos" style="width: 100%">
-                <div>
-                    <h4 class="titulo" style="color: #00DC8D">Produtos</h4>
-                </div>
-                <div class="produtos">
-                    <div class="produto_PIX" style="width: 46%">
-                        <iframe class="video" width="550" height="430" style="width: 100%" src="https://www.youtube.com/embed/ctBY0ldvhNQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
-                    </div>
-                    <div class="produto_SLL" style="width: 49%">
-                        <iframe class="video" width="550" height="430" style="width: 100%" src="https://www.youtube.com/embed/5V3Y394VmXQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            <div class="background_produto sessao" id="produtos">
+                <div class="container">
+                    <h4 class="title light-green" >Produtos</h4>
+                    <div class="produtos row">
+                        <div class="text-center col-sm-12 col-md-6">
+                            <h4 class="sub-title-produtos"> PIX - Pagamentos Instantâneos</h4>
+                            <iframe class="video" src="https://www.youtube.com/embed/ctBY0ldvhNQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen ></iframe>
+                        </div>
+                        <div class="text-center col-sm-12 col-md-6">
+                            <h4 class="sub-title-produtos">Sistema de Liquidação de Ativos</h4>
+                            <iframe class="video" src="https://www.youtube.com/embed/5V3Y394VmXQ" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </div>
                     </div>
                 </div>
             </div>
 <!------------------------------------------------------- Acessos ------------------------------------------------------->
-            <div class="background_acessos" id="acessos" style="width: 100%">
-                <h4 class="titulo" style="color:#005B59;">Acessos</h4>   
-                <h4 class="texto_acessos">Agora que você conheceu um pouco mais sobre a Lina, você pode acessar nossa documentação abaixo, para entender um pouco mais sobre as ferramentas e serviços que nossa equipe utiliza no dia-a-dia :-)</h4>
-                <div class="acessos-geral">
-                    <div class="ferramentas">
-                        <div class="trello">
-                            <a href="documentos_primeirosacessos/Trello.pptx">
-                            <img id="logo_trello" src="icones_lina/trello-brands.svg" alt="Logo Trello" height="70" width="70">
-                            <h5 id="texto_trello" style="color: #005B59;">Trello</h5>
-                            <h6>O Trello é uma ferramenta para gerenciar projetos, onde você tem uma visão do que está sendo feito, o que já foi concluído e tarefas a serem realizadas.</h6></a>
-                        </div>
-                        <div class="email">
-                            <a href="documentos_primeirosacessos/E-mail.pptx">
-                            <img id="logo_email" src="icones_lina/envelope-solid.svg" alt="Logo E-mail" height="70" width="70">
-                            <h5 id="texto_email" style="color: #005B59;">E-mail</h5>
-                            <h6>O e-mail corporativo aumenta a credibilidade da identidade da empresa, passando mais confiança e segurança, seja a clientes e funcionários.</h6></a>
-                        </div>
-                        <div class="slack">
-                            <a href="documentos_primeirosacessos/Slack.pptx">
-                            <img id="logo_slack" src="icones_lina/slack-brands.svg" alt="Logo Slack" height="70" width="70">
-                            <h5 id="texto_slack" style="color: #005B59;">Slack</h5>
-                            <h6>O Slack é uma ferramenta que tem como objetivo facilitar a comunicação entre você e sua equipe. No slack o mesmo grupo de pessoas podem participar de diversos assuntos/projetos.</h6></a>
+            <div class="bg-light-green sessao" id="acessos">
+                <div class="container">
+                    <h4 class="title green">Acessos</h4>   
+                    <h4 class="texto_acessos green">Agora que você conheceu um pouco mais sobre a Lina, você pode acessar nossa documentação abaixo, para entender um pouco mais sobre as ferramentas e serviços que nossa equipe utiliza no dia-a-dia :-)</h4>
+                    <div class="acessos-geral">
+                        <div class="ferramentas text-center">
+                            <div class="trello col-md-4">
+                                <a href="documentos_primeirosacessos/Trello.pptx">
+                                    <i class="fab fa-trello"></i>
+                                </a>
+                                <h5 id="texto_trello" class="green" >Trello</h5>
+                                <p>O Trello é uma ferramenta para gerenciar projetos, onde você tem uma visão do que está sendo feito, o que já foi concluído e tarefas a serem realizadas.</p>
+                            </div>
+                            <div class="email col-md-4">
+                                <a href="documentos_primeirosacessos/E-mail.pptx">
+                                    <i class="fas fa-envelope-square"></i>
+                                </a>
+                                <h5 id="texto_email" class="green">E-mail</h5>
+                                <p>O e-mail corporativo aumenta a credibilidade da identidade da empresa, passando mais confiança e segurança, seja a clientes e funcionários.</p>
+                            </div>
+                            <div class="slack col-md-4">
+                                <a href="documentos_primeirosacessos/Slack.pptx">
+                                    <i class="fab fa-slack"></i>
+                                </a>
+                                <h5 id="texto_slack" class="green">Slack</h5>
+                                <p>O Slack é uma ferramenta que tem como objetivo facilitar a comunicação entre você e sua equipe. No slack o mesmo grupo de pessoas podem participar de diversos assuntos/projetos.</p>
+                            </div>
                         </div>
                         <div class="autenticador">
                             <a href="documentos_primeirosacessos/Autenticador.pptx">

@@ -1,67 +1,92 @@
+body {
+    font-family: saira;
+}
+
+.green {
+    color: #005B59;
+}
+
+.bg-green {
+    background-color: #005B59;
+}
+
+.light-green {
+    color: #00DC8D;
+}
+
+.bg-light-green {
+    background-color: #00DC8D;
+}
+
+.black {
+    color: black;
+}
+
+.sessao {
+    padding: 5rem 0rem;
+    min-height: calc(100vh - 85px);
+    margin: 0;
+}
+
+
 /*---------------------------------------------------------- Início ----------------------------------------------------*/
 .background_inicio {
-    background-image: url("/img_background/background_inicio.png");
-    padding-bottom: 18rem;
+    background-image: url("../img_background/background_inicio.png");
     background-repeat: no-repeat;
     background-size: cover;
+    height: calc(100vh - 85px)
 }
 
 .logo_lina {
     position: absolute;
+    top: 0;
+    height: 85px;
 }
 
-div.sticky {
-    position: -webkit-sticky;
+.navbar {
     position: sticky;
     top: 0;
     z-index: 1;
+    background-color: #005B59;
+    height: 85px;
 }
 
-ul {
+.menu {
     list-style-type: none;
     overflow: hidden;
-    background-color: #005B59;
-    font-family: saira;
     font-size: 18px;
     margin-bottom: 0px;
 }
 
-li {
+.list-item {
     float: right;
 }
 
-li a {
+.list-item a {
     display: block;
     color: white;
-    padding: 30px 16px;
+    padding: 15px 30px;
     text-decoration: none;
-    padding-left: 4rem;
 }
 
-a:hover {
+.list-item a:hover {
     color: #00DC8D;
     text-decoration: none;
-} 
-
-h4 {
-    font-family: saira;
-    text-align: center;
-    color: #005B59;
-    padding: 15rem 45rem 0rem 3rem;
 }
+
+.sub-title h4 {
+    width: 50%;
+    padding-top: calc(50vh - 85px);
+}
+
 /*---------------------------------------------------------- Sobre -----------------------------------------------------*/
 .background_sobre {
-    background-image: url("/img_background/background_sobre.jpg");
-    font-family: saira;
+    background-image: url("../img_background/background_sobre.jpg");
 }
 
-.titulo {
-    padding: 3rem 0rem 0rem 3rem;
-    font-style: saira;
+.title {
     font-size: 34px;
-    color: #00DC8D;
-    margin-bottom: 0px;
-    position: absolute;
+    padding-bottom: 2rem;
 }
 
 .cards {
@@ -70,185 +95,103 @@ h4 {
 }
 
 .card {
-    margin: 8% 3% 0% 3%;
-    height: 525px;
-    text-align: justify;           
+    text-align: justify;
     font-size: 18px;
-    box-shadow: #565656 0.2em 0.4em 0.6em 0.3em;
+    box-shadow: 0px 0px 82px -9px rgba(0, 0, 0, 0.75);
 }
 
 .card-body {
-    line-height: 1.3;       
-}
-/*---------------------------------------------------------- Equipe  ---------------------------------------------------*/
-.background_equipe {
-    background-image: url("/img_background/background_equipe.png");
-    padding-top: 1rem;
-    font-family: saira;
+    padding: 16px;
+    line-height: 1.3;
 }
 
-.texto_socioslina {
-    padding: 17rem 0rem 0rem 0rem;
-    margin-left: 83%;
-    position: absolute;
-    font-style: normal;
-    font-weight: 200;
-    font-size: 28px;
-    color: #000000;
+/*---------------------------------------------------------- Equipe  ---------------------------------------------------*/
+.background_equipe {
+    background-position: center;
+    background-size: cover;
+    background-image: url("../img_background/background_equipe.png");
+}
+
+.sub-title-equipe {
+    font-weight: 400;
+    font-size: 26px;
+    color: white;
+    background-color: #005B59;
+    padding: 8px;
+    border-radius: 25px;
+    margin: auto;
+    text-align: center;
 }
 
 #cardgroup_socios {
     display: flex;
-    flex-flow: inherit;
-    padding: 7rem 0rem 0rem 2rem;
-}
-
-.texto_marcio {
-    font-style: normal;
-    font-weight: 200;
-    font-size: 24px;
-    color: #000000;
-    text-align: center;
-}
-
-.card-alan {
-    padding-left: 1rem;
-}
-
-.texto_alan {
-    font-style: normal;
-    font-weight: 200;
-    font-size: 24px;
-    color: #000000;
-    text-align: center;
-}
-
-.card-murilo {
-    padding-left: 1rem;
-}
-
-.texto_murilo {
-    font-style: normal;
-    font-weight: 200;
-    font-size: 24px;
-    color: #000000;
-    text-align: center;
-}
-
-.card {
-    height: 450px;          
-    margin-bottom: 2%;
-}
-
-.card-img-top {
-    height: 250px;
-}
-
-.card-text-equipe {
-    height: 140px;
-    padding: 2rem 5rem 0rem 4.7rem;
-}
-
-.texto_colaboradores {
-    padding: 50rem 0rem 0rem 0rem;
-    margin-left: 82%;
-    position: absolute;
-    font-style: normal;
-    font-weight: 200;
-    font-size: 28px;
-    color: #000000;
 }
 
 #cardgroup_colaboradores {
     display: flex;
-    flex-flow: inherit;
-    padding: 2rem 8rem 0rem 2rem;
 }
 
-.texto_wellington {
-    font-style: normal;
+.card-title {
     font-weight: 200;
-    font-size: 24px;
-    color: #000000;
+    font-size: 18px;
+    color: white;
+    background-color: #005B59;
     text-align: center;
+    border-radius: 25px;
+    padding: 8px;
 }
 
-.card-guilherme {
-    padding-left: 1rem;
+.card-equipe i {
+    font-size: 150px;
+    color: white;
+    margin: auto;
 }
 
-.texto_guilherme {
-    font-style: normal;
-    font-weight: 200;
-    font-size: 24px;
-    color: #000000;
-    text-align: center;
+.card-equipe i:hover {
+    color: #00DC8D;
 }
 
-.card-renner {
-    padding-left: 1rem;
-}
-
-.texto_renner {
-    font-style: normal;
-    font-weight: 200;
-    font-size: 24px;
-    color: #000000;
-    text-align: center;
-}
 /*------------------------------------------------------- Produtos -----------------------------------------------------*/
 .background_produto {
-    background-image: url("/img_background/background_produtos.jpg");
-    height: 580px;
-    width: 1311px;
+    background-image: url("../img_background/background_produtos.jpg");
     background-repeat: no-repeat;
     background-size: cover;
 }
 
 .produtos {
     display: flex;
-    padding: 7rem 0rem 0rem 0rem;
+    width: 100%;
 }
 
-.produto_PIX {
-    padding-left: 3rem;
-    width: 570px;
-    height: 430px;
+.produtos iframe {
+    width: 100%;
+    height: 50vh;
 }
 
-.produto_SLL {
-    padding-left: 4rem;
-    margin-left: 2%;
-    width: 570px;
-    height: 430px;
+.sub-title-produtos {
+    background-color: #005B59;
+    color: white;
+    border-radius: 25px;
+    padding: 8px 16px;
 }
+
 /*---------------------------------------------------------- Acessos ---------------------------------------------------*/
-.background_acessos {
-    background-color: #00DC8D;
-    height: 580px;
-    width: 1311px;
-}
 
 .texto_acessos {
-    padding: 10rem 2rem 0rem 0rem;
-    margin-right: 0px;
-    font-family: saira;
-    text-align: center;
-    color: #005B59;
+    padding-bottom: 5rem;
 }
 
 .ferramentas {
     display: flex;
-    padding: 2rem 3rem 0rem 9rem;
 }
 
-.ferramentas h6 {
-    padding-right: 5rem;
-    text-align: justify;
-    color: #005B59;
+.ferramentas i {
+    font-size: 70px;
+    color: white;
+    padding: 1rem 0px;
 }
 
-.ferramentas div h6:active {
+.ferramentas div i:hover {
     -webkit-transform: scale(0.5);
     transform: scale(1.2);
 }
